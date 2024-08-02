@@ -33,6 +33,9 @@ export default function Header() {
             <NavLink to="/posts" className="hover:bg-slate-400 rounded-lg p-2">
               Yazılarım
             </NavLink>
+            <NavLink to="/post" className="hover:bg-slate-400 rounded-lg p-2">
+              Yazılarım
+            </NavLink>
             <NavLink
               to="/bookmarks"
               className="hover:bg-slate-400 rounded-lg p-2"

@@ -1,3 +1,5 @@
+import BlogList from '../components/BlogList'
+
 export default function PostsPage() {
   return (
     <>
@@ -27,6 +29,7 @@ export default function PostsPage() {
           </a>
         </p>
       </div>
+      <BlogList />
     </>
   )
 }

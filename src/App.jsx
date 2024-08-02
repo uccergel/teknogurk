@@ -1,11 +1,11 @@
 import { Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer'
-import Header from './components/Header'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import PostsPage from './pages/PostsPage'
 import BookmarksPage from './pages/BookmarksPage'
 import HeaderAlternative from './components/HeaderAlternative'
+import BlogPost from './components/BlogPost'
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/posts" element={<PostsPage />} />
             <Route path="/bookmarks" element={<BookmarksPage />} />
+            <Route path="/post/:slug" element={<BlogPost />} />
           </Routes>
         </div>
         <div>
